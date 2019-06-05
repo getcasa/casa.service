@@ -1,0 +1,9 @@
+[Unit]
+Description=Casa smart home
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /usr/bin/casa
+
+[Install]
+WantedBy=multi-user.target
