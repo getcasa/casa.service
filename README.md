@@ -3,7 +3,7 @@ Use casa with systemd.
 
 ## Install
 ```sh
-sudo cp myservice.service /etc/systemd/system/casa.service
+sudo cp casa.service /etc/systemd/system/casa.service
 sudo chmod 644 /etc/systemd/system/casa.service
 ```
 
